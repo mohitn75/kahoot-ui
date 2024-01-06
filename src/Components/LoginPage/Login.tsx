@@ -1,5 +1,5 @@
 import React from "react"
-import '../Assets/login.css'
+import '../../Assets/login.css'
 
 const Login = () => {
   return (
@@ -26,7 +26,7 @@ const Login = () => {
         </button>
         <div className="register-link">
           <p>
-            Dont have an account? <a href="#">Register</a>
+            Dont have an account? <a href="/register">Register</a>
           </p>
         </div>
       </form>
